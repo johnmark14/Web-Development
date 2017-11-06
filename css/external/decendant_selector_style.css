@@ -1,0 +1,50 @@
+body {
+    background-color: #fc3;
+    color: #333;
+}
+
+body#idClassPage {
+    background-color: white;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Georgia, Times, serif;
+
+}
+
+p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+ol {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* styles for the decendant class */
+
+.primaryBox {
+    background-color: white;
+    border: solid 10px #333;
+    padding: 10px 10px 10px 40px
+}
+
+.secondaryBox {
+    background: #333;
+    color: white;
+    border: solid 10px #333;
+    padding: 10px 10px 10px 40px
+}
+
+.secondaryBox p em {
+    color: goldenrod
+}
