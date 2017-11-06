@@ -1,0 +1,49 @@
+body {
+    background-color: #fc3;
+    color: #333;
+}
+
+body#idClassPage {
+    background-color: white;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Georgia, Times, serif;
+
+}
+
+p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+ol {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* styles for the ID & Class */
+
+h1#main-title {
+    color: #fc3;
+    background: #353535;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.sectionheader {
+    color: olive;
+    border: solid 1px pink;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
