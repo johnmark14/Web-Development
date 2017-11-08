@@ -133,7 +133,6 @@ strong {
 #box7 { border: dotted 4px black; }
 #box8 { border: double 6px black; }
 
-
 /* Styling Links Lecture */
 
 #styling-links {
@@ -146,5 +145,42 @@ strong {
     width: 640px;
     margin: 0 auto;
     padding: 40px;
+}
+
+/* styles of links */
+
+a {
+    display: inline-block /* wrap content */
+}
+
+/* unvisited */
+a:link {
+    color: white;
+    background: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* visited */
+a:visited {
+color: #fc3;
+}
+
+/* hovered / mouse-hover */
+a:hover {
+    background: #fc3;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* active / mouse-down */
+
+a:active {
+    background: #777;
+}
+
+a#link-1:link {
+   padding: 11px;
 }
 
