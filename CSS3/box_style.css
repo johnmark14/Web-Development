@@ -1,0 +1,30 @@
+#box, #circle, #shape {
+    background: red;
+    color: white;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 90px 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 430px;
+    margin: 20px auto;
+    
+}
+
+#circle {
+    border-radius: 180px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+#shape {
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
