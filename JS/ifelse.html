@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IfElse</title>
+</head>
+
+<body>
+    <h1>If / Else</h1>
+    <div id="box1"> </div>
+    <script type="text/javascript">
+        var age = 18;
+
+        if (age < 18) {
+
+            document.getElementById("box1").innerHTML = "You cannot vote yet."
+            document.getElementById("box1").style.color = "red";
+        } else {
+            document.getElementById("box1").innerHTML = "You can now vote!"
+            document.getElementById("box1").style.color = "green";
+        }
+    </script>
+
+</body>
+
+</html>

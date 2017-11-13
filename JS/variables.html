@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Javascript Variables</title>
+</head>
+
+<body>
+    <h1>Javascript Variables</h1>
+    <script type="text/javascript">
+        //var bucketOnBeach;
+        //bucketOnBeach = "sand, stones, shovel";
+
+        var bucketOnBeach = "sand, stones, shovel";
+        document.write(bucketOnBeach);
+
+        var a = 12;
+        var b = 24;
+        var c = a + b;
+
+        document.write("<br><br>" + c);
+
+        // Strings
+        var myArray = ["sand", "shovel", "water"];
+        document.write("<br><br>" + myArray[0]);
+
+
+        for (var i = 0; i < myArray.length; i++) {
+            document.write("<br>" + myArray[i]);
+        }
+
+        // 2D arrays
+        var myInfoArray = [
+            ["John", "Male", 21],
+            ["Marie", "Female", 18],
+            ["Jose", "Male", 30]
+        ]
+
+        for (var i = 0; i < myInfoArray.length; i++) {
+            document.write("<br>");
+            for (var z = 0; z < 3; z++) {
+                document.write(myInfoArray[i][z] + ", ");
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

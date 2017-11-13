@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Internal &amp; External Javascript</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Internal &amp; External Javascript</h1>
+        <p id="output"></p>
+
+
+    </div>
+    <!-- end of container -->
+
+    <!-- Javascript should always load last! -->
+    <!-- This is internal Javascipt -->
+    <script type="text/javascript">
+        document.getElementById("output").innerHTML = 'This text was created with internal Javascript';
+    </script>
+
+    <!-- This is external Javascript -->
+    <script type="text/javascript" src="script.js">
+        window.alert("hello");
+    </script>
+</body>
+
+</html>
