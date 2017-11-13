@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Install Jquery</title>
+</head>
+
+<body>
+
+
+    <!-- Scripts always at the bottom! -->
+    <!-- Load CDN first -->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-3.2.1.js"><\/script>')
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>

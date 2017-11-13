@@ -1,5 +1,5 @@
 body {
-    background: #333 url('img/cutlery.jpg') no-repeat;
+    background: #333 url("img/cutlery.jpg") no-repeat;
     background-size: cover;
     color: #532827;
 }
@@ -9,7 +9,7 @@ body {
     margin: 30px auto 30px;
     padding: 35px 50px 30px;
     box-sizing: border-box;
-    background: url('img/paper_pattern.jpg') top left repeat;
+    background: url("img/paper_pattern.jpg") top left repeat;
     border-radius: 5px;
     text-align: center;
 }
